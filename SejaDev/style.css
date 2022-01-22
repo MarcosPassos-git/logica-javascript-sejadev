@@ -1,0 +1,103 @@
+* {
+    font-family: 'Readex Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: #ffa600;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+   
+
+}
+
+
+.content {
+
+    padding: 0 50px;
+    
+}
+.section {
+    padding-top: 30px;
+     
+
+}
+.benefits-content {
+
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+
+.benefits-card {
+    background-color: rgb(12, 12, 11);
+    color: rgb(245, 239, 239);
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.benefits-title {
+    margin-bottom: 20px;
+
+}
+
+.contact-form {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    gap: 10px;
+}
+
+.input {
+    padding: 10px;
+    border: 2px solid #464646;
+    background-color: #464646;
+    border-radius: 5px;
+    color: white;
+    transition: all 0.25s ease-out;
+}
+
+.input:focus {
+    outline: none;
+    border: 2px solid #ffa600;
+}
+
+.input::placeholder {
+    color: white;
+    
+}
+
+.botton {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #ffa600;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.25s ease-out;
+}
+
+.botton:hover {
+    background-color: #e49607;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .benefits-content{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .benefits-card {
+        width: 100%;
+    }
+
+}
